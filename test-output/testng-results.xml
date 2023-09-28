@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-29T01:58:02 IST" name="Default suite" finished-at="2023-09-29T01:58:22 IST" duration-ms="19900">
+    <groups>
+    </groups>
+    <test started-at="2023-09-29T01:58:02 IST" name="Default test" finished-at="2023-09-29T01:58:22 IST" duration-ms="19900">
+      <class name="AmezonFailesTastecases.AmezonTitleVarify">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180]" started-at="2023-09-29T01:58:02 IST" name="setUpBrowser" finished-at="2023-09-29T01:58:07 IST" duration-ms="4832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="varifyTitle()[pri:1, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180]" started-at="2023-09-29T01:58:07 IST" name="varifyTitle" finished-at="2023-09-29T01:58:10 IST" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyTitle -->
+        <test-method is-config="true" signature="takesFailedScereenshotTasteCase(org.testng.ITestResult)[pri:0, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180]" started-at="2023-09-29T01:58:10 IST" name="takesFailedScereenshotTasteCase" finished-at="2023-09-29T01:58:11 IST" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyTitle status=SUCCESS method=AmezonTitleVarify.varifyTitle()[pri:1, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesFailedScereenshotTasteCase -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180]" started-at="2023-09-29T01:58:11 IST" name="setUpBrowser" finished-at="2023-09-29T01:58:15 IST" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="inputSearchText()[pri:2, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180]" started-at="2023-09-29T01:58:15 IST" name="inputSearchText" finished-at="2023-09-29T01:58:22 IST" duration-ms="6882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSearchText -->
+        <test-method is-config="true" signature="takesFailedScereenshotTasteCase(org.testng.ITestResult)[pri:0, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180]" started-at="2023-09-29T01:58:22 IST" name="takesFailedScereenshotTasteCase" finished-at="2023-09-29T01:58:22 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inputSearchText status=SUCCESS method=AmezonTitleVarify.inputSearchText()[pri:2, instance:AmezonFailesTastecases.AmezonTitleVarify@169e6180] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesFailedScereenshotTasteCase -->
+      </class> <!-- AmezonFailesTastecases.AmezonTitleVarify -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
