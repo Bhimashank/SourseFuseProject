@@ -5,9 +5,14 @@
     <classes>
       <class name="AmezonFailesTastecases.AmezonTitleVarify">
         <methods>
+          <include name="inputSearchText"/>
+          <include name="starttestCase"/>
           <include name="varifyTitle"/>
           <include name="takesFailedScereenshotTasteCase"/>
+          <include name="logGenerator"/>
+          <include name="ckickOnAll"/>
           <include name="setUpBrowser"/>
+          <include name="endtestCase"/>
         </methods>
       </class> <!-- AmezonFailesTastecases.AmezonTitleVarify -->
     </classes>
